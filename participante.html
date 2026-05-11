@@ -132,7 +132,7 @@
 <div class="toast" id="toast"></div>
 
 <script>
-const CFG = { binId: 'JSONBIN_BIN_ID_PLACEHOLDER', apiKey: 'JSONBIN_API_KEY_PLACEHOLDER' };
+const CFG = { binId: '6a00df87adc21f119a7ec3d2', apiKey: '$2a$10$WHn4rRHL.zrxbac3OEoGWuDjHCnIN8bnpdr1yIFcievenbikA/c.W' };
 const QUESTIONS = ['a1','a2','a3','b1','b2','b3','b4','b5','c1','c2','c3','c4','d1','d2','d3','d4'];
 const MEANINGS = {1:'Aún no existe o es muy incipiente',2:'Existe pero de forma informal',3:'Proceso definido, aplicación inconsistente',4:'Proceso sólido, bien adoptado',5:'Referente de mejores prácticas'};
 const scores = {}, gaps = {};
@@ -167,7 +167,7 @@ function showToast(msg, ms=3500) {
 }
 
 async function submitResponses() {
-  if (CFG.binId === 'JSONBIN_BIN_ID_PLACEHOLDER') {
+  if (CFG.binId === '6a00df87adc21f119a7ec3d2') {
     showToast('⚠️ Credenciales no configuradas — contacta al facilitador');
     return;
   }
